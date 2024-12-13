@@ -1,0 +1,49 @@
+# Ignore Maven build directory
+/target/
+
+# Ignore Eclipse-specific files
+/.classpath
+/.project
+/.settings/
+/bin/
+/*.iml
+
+# Ignore log files
+*.log
+
+# Ignore compiled class files
+*.class
+
+# Ignore IntelliJ IDEA project files (if you're using IntelliJ)
+.idea/
+
+# Ignore system-specific files (e.g., macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore .m2 repository directory (if you're using Maven locally)
+.m2/
+
+# Ignore IDE configuration files (for IntelliJ or others)
+*.ipr
+*.iws
+*.idea/
+
+# Ignore JAR files (if you don’t want to commit them)
+*.jar
+
+# Ignore Selenium WebDriver downloaded binaries (if you don't want to commit them)
+*.exe
+*.dll
+geckodriver
+chromedriver
+IEDriverServer
+
+# Ignore test results
+/target/test-classes/
+/target/test-jar/
+
+# Ignore temporary files
+*.swp
+*~
+
